@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Roboto:ital@1&display=swap');
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html.body{
+
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+
+    text-decoration: none;
+    color: wheat;
+}
+
+.container{
+
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+header{
+
+    background-color: darkmagenta;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo{
+
+    font-size: 32px;
+}
+
+nav ul{
+
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li:hover{
+
+    border-bottom: 2px solid wheat;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-section{
+
+    background-image: url('../Music/ituens.jpg');
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    color: yellow;
+}
+.hero-section .container{
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-section h1{
+
+    font-size: 96px;
+}
+
+.hero-section h3
+
+{
+ font-size: 32px;
+
+}
+
+.music-section{
+
+    padding-top: 50px;
+    background-color: aquamarine;
+}
+
+.music-section .container{
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.button{
+
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+    border-radius: 9px;
+    background-color: red;
+    color: whitesmoke;
+}
+
+button:hover{
+
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+.hht{
+
+    border-radius: 9px;
+}
+
+.ipad-iphone-img
+
+{
+    margin-top: -100px;
+    position: relative;
+    top: 100px;
+}
+
+.about-music{
+
+    padding-top: 200px;
+
+    display: grid;
+    place-items: center;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}   
+
+.video-section{
+
+    background-image: url(../Images/intro.jpg);
+    min-height: 800px;
+    background-position: center;
+    display: grid;
+    place-items: center;
+    color: wheat;
+    text-align: center;
+}
+
+.video-section .container{
+
+  display: flex;  
+  flex-direction: column;
+  gap: 30px;
+  margin: -200px;
+}
+
+
+.gift-section{
+
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+    gap: 50px;
+}
+
+.gift-content{
+
+
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+.footer-upper{
+
+    background-color: purple;
+    padding: 20px;
+}
+
+.footer-upper .container {
+
+
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.footer-upper h4{
+
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    margin-bottom: 10px;
+}
+
+.footer-lower{
+
+    background-color: purple;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: wheat;
+}
